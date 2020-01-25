@@ -1,0 +1,2 @@
+kafkacat -L -b kafka-1:19092
+kafkacat -C -b kafka-3:39092 -t helloworld_topic
